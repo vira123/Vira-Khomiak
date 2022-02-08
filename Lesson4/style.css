@@ -1,0 +1,66 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    transition: all .1s ease-in;
+}
+
+.frame{
+text-align: center;
+width: 793px;
+height: 507px;
+left: 0px;
+top: 0px;
+background: #3B3F45;
+}
+.header{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+width: 793px;
+height: 82px;
+left: 0px;
+top: 0px;
+background: #4A4F56;
+}
+.title{
+    color: #FF8984;
+    padding-top: 19px;
+    margin-bottom: 0;
+}
+.subtitle{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FF8984;
+margin-top: 4px;
+}
+.check{
+width: 19px;
+height: 19px;
+top: 114px;
+background: #FFFFFF;
+margin-top: 12px ;
+margin-right: 12px;
+}
+.list{
+width: 534px;
+height:45px;
+background: #88839E;
+text-align: left;
+margin-left: 130px;
+}
+.list-item{
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    padding-left: 12px;
+    color: #FFFFFF;
+    padding-top: 12px;
+}
+sup{
+    margin-left: 4px;
+}
+.list-item:checked  {
+    color: red; 
+}
