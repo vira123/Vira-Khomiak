@@ -12,10 +12,6 @@
     background: #3b3f45;
 }
 .header {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
     width: 793px;
     height: 82px;
     left: 0px;
@@ -25,6 +21,10 @@
 }
 .title {
     color: #ff8984;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
     padding-top: 19px;
     margin-bottom: 0;
 }
@@ -41,25 +41,27 @@
     width: 19px;
     height: 19px;
     top: 114px;
-    margin-top: 7px;
-    margin-right: 12px;
+    margin: 12px 7px 0 12px;
 }
 
 .list {
     width: 534px;
-    height: 40px;
+    height: 45px;
     background: #88839e;
     text-align: left;
     margin-left: 130px;
-    font-size: 18px;
-    line-height: 21px;
-    align-items: center;
-    padding-left: 12px;
-    color: #ffffff;
+    
+}
+
+.list-container .list:nth-child(2n) {
+    background: #7A7593;
 }
 .item {
-    position: relative;
-    bottom: 5px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-left: 12px;
 }
 
 .sup {
@@ -80,15 +82,6 @@ input:checked + span {
     border-right: 0;
 }
 
-input[type="checkbox"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: white;
-}
-.check:checked::before {
-    content: url(Vector1.png);
-    border: 3px solid;
-}
 .footer {
     width: 534px;
     height: 45px;
@@ -97,7 +90,6 @@ input[type="checkbox"] {
     font-size: 18px;
     line-height: 21px;
     align-items: center;
-    padding-left: 12px;
     margin-top: 35px;
     color: #ff8984;
     padding-top: 20px;
