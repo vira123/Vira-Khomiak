@@ -2,171 +2,156 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 p{
+    font-size: 18px;
+    line-height: 25px; 
+}
+
+.list{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.list-item{
+    display: inline;
+    margin-left: 15px;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.link-active{
+    text-decoration: underline;
+    color: black;
+    opacity: 0.2 ;
+}
+.link:hover{
+    line-height: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #828282;
+}
+
+.navigation {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 25px 230px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+
+.header{
+    margin:0 220px;
+}
+
+
+.about-me{
+    background-color: #f6f6f6;
+}
+
+.sub-me{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 46px; 
+}
+
+.section{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.skill-description{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-weight:600;
+    color: #828282;
+}
+
+.star__container {
+    padding: 20px;
+}
+.star{
+    display: inline-block;
+    height: 20px;
+    margin-right: 8px;
+    width: 20px;
+    background-image: url(img/Star.png);
+    repeat: no-repeat;
+}
+
+    .star1,.star2,.star3,.star0 {
+    margin-top: 4px;
+}
+
+    .star0 div:nth-child(n+5),
+    .star1 div:nth-child(n+4),
+    .star2 div:nth-child(n+5),
+    .star3 div:nth-child(n+5){
+    background-image : url(img/Star-empty.png)
+}
+/*
+.star_container{
+    margin-top: 60px;
+}
+.star{
+    margin-right: 8px;
+}*/
+.skill{
+    display: inline-block;
+    padding: 0 45px;
+}
+
+.portfolio{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 80px ;
+}
+.foto{
+    padding-top: 67px;
+    width: 936.24px;
+    height: 510px;
+}
+.link{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    text-align: center;  
-}
-
-.list{
-list-style: none;
-}
-
-.list-item{
-display: inline;
-margin-left: 25px;
-}
-.link{
-text-decoration: none;
-color:black;
-}
-
-.link-active{
-text-decoration: underline;
-color: black;
-opacity: 0.2 ;
-}
-.link:hover{
-line-height: 25px;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-color: #828282;
-}
-
-.navigation {
-text-align: center;
-height: 52.45px;
-top: 22.99px;
-margin:25px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.line{
-width: 940.6px;
-height: 0px;
-left: 252px;
-top: 64.94px;
-border: 1px solid #828282;
-transform: matrix(1, 0, 0, 1, 0, 0);
-}
-.title{
-width: 328px;
-height: 64px;
-top: 109px;
-left:252px;
-font-style: normal;
-font-size: 47.3392px;
-line-height: 64px;
-color: #070707;
-}
-.header{
-margin:0 220px;
-}
-.denis{
-width: 940.6px;
-height: 387px;
-left: 251.69px;
-top: 211.96px;
-}
-
-.about-me{
-background-color: #f6f6f6;
-text-align: center;
-}
-
-.sub-me{
-font-style: normal;
-font-weight: bold;
-font-size: 34px;
-line-height: 46px;
-text-align: center;  
-}
-
-.about-me_description{
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-}
-.section{
-padding: 100px;
-text-align: center;
-}
-
-.skill-description{
-font-family: Gilroy-Bold;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-font-weight:600;
-color: #828282;
-}
-.skill-container{
-margin-top: 80px;
-}
-.star_container{
-margin-top: 60px;
-}
-.star{
-margin-right: 8px;
-}
-.skill{
-display: inline-block;
-padding: 0 40px;
-}
-
-.portfolio{
-background-color: #f6f6f6;
-text-align: center;
-padding: 80px ;
-}
-.foto{
-padding-top: 67px;
-width: 936.24px;
-height: 510px;
-}
-.link{
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-text-decoration-line: underline;
+    text-align: center;
+    text-decoration-line: underline;
 }
 .contact{
-padding-top: 5px;
-padding-bottom: 85px;
+    padding-top: 5px;
+    padding-bottom: 85px;
 }
 .button{
-width: 180.5px;
-height: 42px;
-left: 632.76px;
-top: 4321px;
-background-color: black;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 25px;
-border-radius:25px;
-text-align: center;
-letter-spacing: 0.1em;
-color: #FFFFFF;
+    width: 180.5px;
+    height: 42px;
+    background-color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius:25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
 }
 .social{
-padding: 31px;
+    padding: 31px;
 }
 .icon{
     margin: 40px;
 }
 .bottom{
-margin-top:34px;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-color: #828282;
+    margin-top:34px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
 }
