@@ -1,0 +1,59 @@
+.frame{
+    width: 850px;
+    height: 942px;
+    background: #FFFFFF;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+.title{
+    width: 1840px;
+    height:55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 32px 44px 42px;
+}
+
+.lang{
+    font-weight: 900;
+    letter-spacing: 0.04em; 
+    padding-right: 42px;   
+}
+
+.doc{
+    font-weight: 400;
+}
+
+.logo{
+    width: 243px;
+    height: 55.28px;  
+}
+.introduction{
+    width:1852px;
+    height:2291px;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    padding: 44px 32px 44px 42px;
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase; 
+    font-weight: 700;
+}
+
+.grey__text{
+    background-color: #C9C9C9;
+}
+p{
+    font-weight: 400;
+}
