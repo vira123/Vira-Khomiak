@@ -1,0 +1,94 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin:0;
+}
+
+
+.title {
+    width: 1840px;
+    height: 55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 32px 44px 42px;
+    background: #ffffff;  
+}
+
+.lang {
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    padding-right: 42px;
+}
+
+.doc {
+    font-weight: 400;
+}
+
+.logo {
+    width: 243px;
+    height: 55.28px;
+}
+.who{
+    margin-top: 55px;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px; 
+    color: #000000;
+    }
+
+.card-container{
+    position: relative;
+    width: 440px;
+    height:280px;
+    perspective: 300px;
+}
+.card-inner{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.card-container:hover .card-inner{
+    transform: rotateX(180deg);
+}
+.card-inner-front, .card-inner-back{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    backface-visibility: hidden;
+}
+.card-inner-front{
+    transform: rotateX(180deg);  
+}
+
+.flex-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+
+}
+.first-row{
+    height:318px;
+    margin:20px 40px;
+   display:flex ;
+   flex-direction: row;
+   justify-content: space-between;
+   border-bottom: 1px solid #BFBFBF;
+}
+.second-row{
+    height:318px;
+    margin:20px 40px;
+   display:flex ;
+   flex-direction: row;
+   justify-content: space-between;
+}
