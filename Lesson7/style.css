@@ -1,0 +1,123 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin:0;
+}
+
+.frame {
+    width: 1920px;
+    height: 940px;
+    background: #ffffff;
+}
+
+.title {
+    width: 1840px;
+    height: 55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 32px 44px 42px;
+    background: #ffffff;  
+}
+
+.lang {
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    padding-right: 42px;
+}
+
+.doc {
+    font-weight: 400;
+}
+
+.logo {
+    width: 243px;
+    height: 55.28px;
+}
+
+.sidebar{
+    width: 1920px;
+    height: 478.11px;
+    position:fixed;
+    top:120px;
+    bottom:337px;
+    display: flex;
+    flex-direction: column;
+    justify-items:flex-end;
+
+}
+
+.line{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-top: 92px;
+    color: #000000; 
+    border-bottom: 1px solid #BFBFBF; 
+    padding:0;
+}
+
+.number{
+    font-size: 20px;
+    line-height: 25px; 
+    color: #000000;
+}
+
+.introduction {    
+    width: 1160px;
+    height: 3843px;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    padding: 144px 32px 44px 720px;
+}
+
+.header {
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;   
+    display: inline;
+}
+
+.introduction h2:before{
+    display: block;
+    content: "";
+    border-top: 12px solid #000000; 
+    width:80px;
+    padding-bottom:20px ;
+}
+
+.bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+}
+
+.grey__text {
+    background-color: #c9c9c9;
+}
+
+p {
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.detel {
+    position: fixed;
+    top:260px;
+    left:1270px;
+    z-index: -1;
+    width: 650px;
+    height: 675px;
+}
